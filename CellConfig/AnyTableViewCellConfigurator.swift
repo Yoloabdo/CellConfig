@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AnyTableViewCellConfigurator {
+struct AnyTableViewCellConfigurator {
     var configure: (_ tableView: UITableView, _ index: IndexPath) -> UITableViewCell
 
     init<I: UITableViewCellConfigurator>(_ configurator: I) {

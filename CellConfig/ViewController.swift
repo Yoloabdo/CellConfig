@@ -21,9 +21,12 @@ class ViewController: UIViewController {
         let config = PlayerCellConfigurator(item: player)
         
         let configTwo = PlayerTwoCellConfigurator(item: playerTwo)
-        
+        let array = Array(repeating: AnyTableViewCellConfigurator(configTwo), count: 10000)
+        let arraytwo = Array(repeating: AnyTableViewCellConfigurator(config), count: 10000)
         data.append(AnyTableViewCellConfigurator(config))
         data.append(AnyTableViewCellConfigurator(configTwo))
+        data.append(contentsOf: array)
+        data.append(contentsOf: arraytwo)
     }
     
 }
