@@ -12,6 +12,7 @@ struct AnyTableViewCellConfigurator {
     var configure: (_ tableView: UITableView, _ index: IndexPath) -> UITableViewCell
 
     init<I: UITableViewCellConfigurator>(_ configurator: I) {
-        self.configure = configurator.configure
+        var copy = configurator
+        self.configure = copy.configure
     }
 }
