@@ -14,6 +14,11 @@
 		398F493D25112C420007B93B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 398F493C25112C420007B93B /* Assets.xcassets */; };
 		398F494025112C420007B93B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 398F493E25112C420007B93B /* LaunchScreen.storyboard */; };
 		398F494B25112C420007B93B /* CellConfigTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F494A25112C420007B93B /* CellConfigTests.swift */; };
+		398F495825113ADA0007B93B /* UITableViewCellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F495725113ADA0007B93B /* UITableViewCellConfigurator.swift */; };
+		398F495A25113AF40007B93B /* PlayerCellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F495925113AF40007B93B /* PlayerCellConfigurator.swift */; };
+		398F495C25113B0A0007B93B /* PlayerTwoCellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F495B25113B0A0007B93B /* PlayerTwoCellConfigurator.swift */; };
+		398F495E25113B210007B93B /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F495D25113B210007B93B /* Player.swift */; };
+		398F496025113B3E0007B93B /* AnyTableViewCellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398F495F25113B3E0007B93B /* AnyTableViewCellConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +43,11 @@
 		398F494625112C420007B93B /* CellConfigTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CellConfigTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		398F494A25112C420007B93B /* CellConfigTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellConfigTests.swift; sourceTree = "<group>"; };
 		398F494C25112C420007B93B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		398F495725113ADA0007B93B /* UITableViewCellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCellConfigurator.swift; sourceTree = "<group>"; };
+		398F495925113AF40007B93B /* PlayerCellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerCellConfigurator.swift; sourceTree = "<group>"; };
+		398F495B25113B0A0007B93B /* PlayerTwoCellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerTwoCellConfigurator.swift; sourceTree = "<group>"; };
+		398F495D25113B210007B93B /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		398F495F25113B3E0007B93B /* AnyTableViewCellConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTableViewCellConfigurator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,11 @@
 				398F493C25112C420007B93B /* Assets.xcassets */,
 				398F493E25112C420007B93B /* LaunchScreen.storyboard */,
 				398F494125112C420007B93B /* Info.plist */,
+				398F495725113ADA0007B93B /* UITableViewCellConfigurator.swift */,
+				398F495925113AF40007B93B /* PlayerCellConfigurator.swift */,
+				398F495B25113B0A0007B93B /* PlayerTwoCellConfigurator.swift */,
+				398F495D25113B210007B93B /* Player.swift */,
+				398F495F25113B3E0007B93B /* AnyTableViewCellConfigurator.swift */,
 			);
 			path = CellConfig;
 			sourceTree = "<group>";
@@ -200,8 +215,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				398F496025113B3E0007B93B /* AnyTableViewCellConfigurator.swift in Sources */,
 				398F493825112C3F0007B93B /* ViewController.swift in Sources */,
+				398F495825113ADA0007B93B /* UITableViewCellConfigurator.swift in Sources */,
+				398F495A25113AF40007B93B /* PlayerCellConfigurator.swift in Sources */,
+				398F495E25113B210007B93B /* Player.swift in Sources */,
 				398F493425112C3F0007B93B /* AppDelegate.swift in Sources */,
+				398F495C25113B0A0007B93B /* PlayerTwoCellConfigurator.swift in Sources */,
 				398F493625112C3F0007B93B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
